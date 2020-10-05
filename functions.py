@@ -63,5 +63,6 @@ class Util:
                             projection=projection)
         fig.update_geos(fitbounds='locations', visible=False)
         fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
-        return fig
+        fig.show("png")
+        # return fig
         
