@@ -1,1 +1,3 @@
 # covid19
+Questa repository contiene notebook Python per la visualizzazione di mappe e grafici sulla pandemia da covid-19 in Italia.
+I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla repository [COVID-19](https://github.com/pcm-dpc/COVID-19) messa a disposizione dal Dipartimento della Protezione Civile sotto licenza [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
