@@ -53,7 +53,9 @@ class Util:
     @staticmethod
     def choropleth_map(df, geojson, color, locations, featureidkey,
                        color_continuous_scale=px.colors.sequential.OrRd,
-                       projection='mercator'):
+                       projection='mercator', interactive=False, reversescale=False):
+        if reversescale:
+            color_continuous_scale = color_continuous_scale[::-1]
         fig = px.choropleth(df,
                             geojson=geojson,
                             color=color,
@@ -63,6 +65,5 @@ class Util:
                             projection=projection)
         fig.update_geos(fitbounds='locations', visible=False)
         fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
-        fig.show("png")
-        # return fig
+        fig.show() if interactive else fig.show("png")
         
