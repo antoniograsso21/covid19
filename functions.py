@@ -53,17 +53,24 @@ class Util:
     @staticmethod
     def choropleth_map(df, geojson, color, locations, featureidkey,
                        color_continuous_scale=px.colors.sequential.OrRd,
-                       projection='mercator', interactive=False, reversescale=False):
-        if reversescale:
-            color_continuous_scale = color_continuous_scale[::-1]
-        fig = px.choropleth(df,
-                            geojson=geojson,
-                            color=color,
-                            locations=locations,
-                            featureidkey=featureidkey,
-                            color_continuous_scale=color_continuous_scale,
-                            projection=projection)
+                       color_continuous_midpoint=None,
+                       reversescale=False, title=None,
+                       projection='mercator', interactive=False):
+        if not title:
+            title=color
+        fig = px.choropleth(
+            df,
+            geojson=geojson,
+            color=color,
+            locations=locations,
+            featureidkey=featureidkey,
+            color_continuous_scale=color_continuous_scale,
+            color_continuous_midpoint=color_continuous_midpoint,
+            projection=projection)
         fig.update_geos(fitbounds='locations', visible=False)
-        fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
+        fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
+                          coloraxis={'colorbar':{'title':title},
+                                     'reversescale': reversescale},
+                          title={'text': title, 'x':0.5, 'y':1})
         fig.show() if interactive else fig.show("png")
         
