@@ -12,7 +12,7 @@ Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/w
 #### Mappa della variazione dei nuovi positivi rispetto al giorno precedente
 ![Variazione nuovi positivi](/data/imgs/variazione_nuovi_positivi.png)
 
-#### Mappa del rapporto tra nuovi positivi e nuovi tamponi
+#### Mappa dei nuovi positivi in rapporto ai nuovi tamponi
 ![Nuovi positivi su nuovi tamponi](/data/imgs/nuovi_positivi_su_nuovi_tamponi.png)
 
 #### Mappa della variazione del totale degli ospedalizzati rispetto al giorno precedente
