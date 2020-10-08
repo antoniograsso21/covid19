@@ -6,9 +6,6 @@ import plotly.graph_objects as go
 
 class Util:
     
-    NATIONAL = 'N'
-    REGION = 'R'
-    PROVINCE = 'P'
     URL_ROOT = 'https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-'
     FILE_NAME_ROOT = 'dpc-covid19-ita-'
     FILE_EXT = '.csv'
@@ -20,14 +17,35 @@ class Util:
         pass
     
     @staticmethod
+    def get_prev_days_date(d, days: int):
+        """
+        TODO
+        """
+        return d - datetime.timedelta(days=days)
+    
+    @staticmethod
     def get_previous_date(d):
         """
         TODO
         """
-        return d - datetime.timedelta(days=1)
+        return Util.get_prev_days_date(d, 1)
     
     @staticmethod
-    def get_url_date(d, level):
+    def get_url_root(level):
+        """
+        TODO
+        """
+        return Util.URL_ROOT + level + '/' + Util.FILE_NAME_ROOT + level
+    
+    @staticmethod
+    def get_url_cum(level):
+        """
+        TODO
+        """
+        return Util.get_url_root(level) + Util.FILE_EXT
+    
+    @staticmethod
+    def get_url_date(level, d):
         """
         Get csv file url according to specified date and level.
         
@@ -38,7 +56,7 @@ class Util:
         :rtype: `str` url of the csv file
         """
         date_formatted = str(d).replace('-', '')
-        return Util.URL_ROOT + level + '/' + Util.FILE_NAME_ROOT + level + '-' + date_formatted + Util.FILE_EXT
+        return Util.get_url_root(level) + '-' + date_formatted + Util.FILE_EXT
     
     @staticmethod
     def replace_bt_with_taa(df):
