@@ -1,10 +1,10 @@
 # COVID-19
-Questa repository contiene notebook Python per la visualizzazione di mappe e grafici sulla pandemia da COVID-19 in Italia.
-I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla repository [COVID-19](https://github.com/pcm-dpc/COVID-19) messa a disposizione dal Dipartimento della Protezione Civile sotto licenza [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
+Questa repository contiene Jupyter Notebook per la visualizzazione di mappe e grafici sulla pandemia da COVID-19 in Italia.
+I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla repository [COVID-19](https://github.com/pcm-dpc/COVID-19), messa a disposizione dal Dipartimento della Protezione Civile sotto licenza [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
 
 ### Mappe per regione
 
-Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica) che mostrano, per l'ultima data disponibile, i dati della pandemia in Italia, suddivisi per regione. I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020.
+Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica) che mostrano i dati della pandemia in Italia per l'ultima data disponibile, suddivisi per regione. I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020.
 
 #### Mappa dei nuovi positivi
 ![Nuovi positivi](/data/imgs/nuovi_positivi.png)
