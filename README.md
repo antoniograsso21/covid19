@@ -15,11 +15,17 @@ Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/w
 #### Mappa dei nuovi positivi in rapporto ai nuovi tamponi
 ![Nuovi positivi su nuovi tamponi](/data/imgs/nuovi_positivi_su_nuovi_tamponi.png)
 
+#### Mappa dei nuovi positivi in rapporto alla popolazione
+![Nuovi positivi su popolazione](/data/imgs/nuovi_positivi_su_popolazione.png)
+
+### Mappa del totale dei positivi in terapia intensiva
+![Terapia intensiva](/data/imgs/terapia_intensiva.png)
+
+### Mappa del totale dei positivi ospedalizzati
+![Totale ospedalizzati](/data/imgs/totale_ospedalizzati.png)
+
 #### Mappa della variazione del totale degli ospedalizzati rispetto al giorno precedente
 ![Variazione totale ospedalizzati](/data/imgs/variazione_totale_ospedalizzati.png)
 
-#### Mappa dei nuovi positivi in rapporto alla popolazione
-![Variazione totale ospedalizzati](/data/imgs/nuovi_positivi_su_popolazione.png)
-
 #### Mappa del totale dei casi positivi in rapporto alla popolazione
-![Variazione totale ospedalizzati](/data/imgs/totale_casi_su_popolazione.png)
+![Totale casi su popolazione](/data/imgs/totale_casi_su_popolazione.png)
