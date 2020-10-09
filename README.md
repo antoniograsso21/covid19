@@ -1,4 +1,4 @@
-# COVID-19
+# COVID-19 in Italia
 Questa repository contiene Jupyter Notebook per la visualizzazione di mappe e grafici sulla pandemia da COVID-19 in Italia.
 I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla repository [COVID-19](https://github.com/pcm-dpc/COVID-19), messa a disposizione dal Dipartimento della Protezione Civile sotto licenza [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
 
@@ -20,6 +20,9 @@ Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/w
 
 #### Mappa del totale dei positivi in terapia intensiva
 ![Terapia intensiva](/data/imgs/terapia_intensiva.png)
+
+#### Mappa della variazione del totale dei positivi in terapia intensiva rispetto al giorno precedente
+![Variazione terapia intensiva](/data/imgs/variazione_terapia_intensiva.png)
 
 #### Mappa del totale dei positivi ospedalizzati
 ![Totale ospedalizzati](/data/imgs/totale_ospedalizzati.png)
