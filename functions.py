@@ -1,5 +1,7 @@
 import datetime
+import numpy as np
 import pandas as pd
+import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 
@@ -74,6 +76,9 @@ class Util:
                        color_continuous_midpoint=None,
                        reversescale=False, title=None, color_title=None,
                        projection='mercator', interactive=False):
+        """
+        TODO
+        """
         if not title:
             title=color
         if not color_title:
@@ -95,3 +100,15 @@ class Util:
         fig.show() if interactive else fig.show('png')
         return fig
         
+    @staticmethod
+    def colors_from_values(values, palette_name):
+        """
+        TODO
+        """
+        # normalize the values to range [0, 1]
+        normalized = (values - min(values)) / (max(values) - min(values))
+        # convert to indices
+        indices = np.round(normalized * (len(values) - 1)).astype(np.int32)
+        # use the indices to get the colors
+        palette = sns.color_palette(palette_name, len(values))
+        return np.array(palette).take(indices, axis=0)
