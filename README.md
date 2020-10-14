@@ -4,8 +4,11 @@ I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla rep
 
 ### Grafici andamento nazionale
 
-#### Rapporto nuovi positivi nuovi tamponi negli ultimi 30 giorni
-![Nuovi positivi su nuovi tamponi_30](/data/imgs/nuovi_positivi_su_nuovi_tamponi_n.png)
+#### Rapporto nuovi positivi / nuovi tamponi negli ultimi 7 giorni
+![Nuovi positivi su nuovi tamponi_30](/data/imgs/nuovi_positivi_su_nuovi_tamponi_n_7.png)
+
+#### Rapporto nuovi positivi / nuovi tamponi negli ultimi 30 giorni
+![Nuovi positivi su nuovi tamponi_30](/data/imgs/nuovi_positivi_su_nuovi_tamponi_n_30.png)
 
 ### Mappe per regione
 
