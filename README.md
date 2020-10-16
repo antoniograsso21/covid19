@@ -18,6 +18,9 @@ Di seguito sono riportati alcuni grafici che mostrano la variazione nel tempo de
 #### Nuovi deceduti negli ultimi 30 giorni
 ![Nuovi deceduti_30](/data/imgs/nuovi_deceduti_n_30.png)
 
+#### Nuovi dimessi guariti negli ultimi 30 giorni
+![Nuovi dimessi_guariti_30](/data/imgs/nuovi_dimessi_guariti_n_30.png)
+
 ### Mappe per regione
 
 Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica) che mostrano i dati della pandemia in Italia per l'ultima data disponibile, suddivisi per regione. I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020.
