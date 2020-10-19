@@ -40,17 +40,17 @@ Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/w
 #### Variazione dei nuovi positivi rispetto al giorno precedente
 ![Variazione nuovi positivi](/data/imgs/variazione_nuovi_positivi.png)
 
-<!-- #### Nuovi positivi in rapporto ai nuovi tamponi
-![Nuovi positivi su nuovi tamponi](/data/imgs/nuovi_positivi_su_nuovi_tamponi.png)
-
-#### Nuovi positivi in rapporto alla popolazione
-![Nuovi positivi su popolazione](/data/imgs/nuovi_positivi_su_popolazione.png) -->
-
 #### Variazione del totale dei positivi in terapia intensiva rispetto al giorno precedente
 ![Variazione terapia intensiva](/data/imgs/variazione_terapia_intensiva.png)
 
 #### Variazione del totale degli ospedalizzati rispetto al giorno precedente
 ![Variazione totale ospedalizzati](/data/imgs/variazione_totale_ospedalizzati.png)
 
+<!-- #### Nuovi positivi in rapporto ai nuovi tamponi
+![Nuovi positivi su nuovi tamponi](/data/imgs/nuovi_positivi_su_nuovi_tamponi.png)
+
+#### Nuovi positivi in rapporto alla popolazione
+![Nuovi positivi su popolazione](/data/imgs/nuovi_positivi_su_popolazione.png)
+
 #### Totale dei casi positivi in rapporto alla popolazione
-![Totale casi su popolazione](/data/imgs/totale_casi_su_popolazione.png)
+![Totale casi su popolazione](/data/imgs/totale_casi_su_popolazione.png)-->
