@@ -18,6 +18,9 @@ Di seguito sono riportati alcuni grafici che mostrano la variazione nel tempo de
 #### Positivi in terapia intensiva negli ultimi 30 giorni
 ![Terapia_intensiva_30](/data/imgs/terapia_intensiva_n_30.png)
 
+#### Variazione in percentuale dei positivi in terapia intensiva negli ultimi 30 giorni
+![Terapia_intensiva_30](/data/imgs/variazione_terapia_intensiva_perc_n_30.png)
+
 #### Nuovi deceduti negli ultimi 30 giorni
 ![Nuovi deceduti_30](/data/imgs/nuovi_deceduti_n_30.png)
 
