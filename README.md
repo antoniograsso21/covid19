@@ -12,6 +12,9 @@ Di seguito sono riportati alcuni grafici che mostrano la variazione nel tempo de
 #### Rapporto nuovi positivi / nuovi tamponi negli ultimi 30 giorni
 ![Nuovi positivi su nuovi tamponi_30](/data/imgs/nuovi_positivi_su_nuovi_tamponi_n_30.png)
 
+#### Rapporto nuovi positivi / nuovi casi testati negli ultimi 30 giorni
+![Nuovi positivi su nuovi tamponi_30](/data/imgs/nuovi_positivi_su_nuovi_casi_testati_n_30.png)
+
 #### Positivi in terapia intensiva negli ultimi 30 giorni
 ![Terapia_intensiva_30](/data/imgs/terapia_intensiva_n_30.png)
 
