@@ -110,3 +110,31 @@ class Visualizer:
         # use the indices to get the colors
         palette = sns.color_palette(palette_name, len(values))
         return np.array(palette).take(indices, axis=0)
+    
+    @staticmethod
+    def plot_hist_from_values(df, x_values, y_values, x_label, y_label,
+                              x_tick_labels=None, y_tick_labels=None,
+                              color='YlOrRd', reversescale=False, save_info=None,
+                              fig_size=(12, 8)):
+        """
+        TODO
+        """
+        sns.set(rc={'figure.figsize':fig_size})
+        if reversescale:
+            color += '_r'
+        # color = 'RdYlGn_r'  # reversed palette
+        palette = Visualizer.colors_from_values(df[y_values], color)
+        g = sns.barplot(x=x_values, y=y_values, palette=palette, data=df);
+        # g = sns.barplot(x='data', y='np_su_nt', color='red', data=df_n);
+        g.set(xlabel=x_label, ylabel=y_label)
+        # TODO: rotation parametrica
+        if x_tick_labels is not None:
+            g.set_xticklabels(labels=x_tick_labels, rotation=90)
+        if y_tick_labels is not None:
+            g.set_yticklabel(labels=y_tick_labels)
+        if save_info:
+            g.get_figure().savefig('{path}/{name}{ext}'.format(
+                path=save_info['path'], name=save_info['file_name'],
+                ext=save_info['ext'] if 'ext' in save_info
+                else Visualizer.FILE_EXT), bbox_inches = 'tight')
+        
