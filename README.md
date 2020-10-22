@@ -53,6 +53,16 @@ La saturazione tiene conto dei soli posti di terapia intensiva occupati da pazie
 #### Variazione del totale degli ospedalizzati rispetto al giorno precedente
 ![Variazione totale ospedalizzati](/data/imgs/variazione_totale_ospedalizzati.png)
 
+### Mappe per provincia
+
+Di seguito sono riportate alcune [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica) che mostrano i dati della pandemia in Italia per l'ultima data disponibile, suddivisi per provincia.
+
+#### Totale casi
+![Totale_casi](/data/imgs/totale_casi_p.png)
+
+#### Variazione totale casi
+![Variazione_totale_casi](/data/imgs/variazione_totale_casi_p.png)
+
 <!-- #### Nuovi positivi in rapporto ai nuovi tamponi
 ![Nuovi positivi su nuovi tamponi](/data/imgs/nuovi_positivi_su_nuovi_tamponi.png)
 
