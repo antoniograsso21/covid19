@@ -6,8 +6,8 @@ I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla rep
 
 Di seguito sono riportati alcuni grafici che mostrano la variazione nel tempo dei dati della pandemia in Italia.
 
-#### Rapporto nuovi positivi / nuovi tamponi negli ultimi 7 giorni
-![Nuovi positivi su nuovi tamponi_7](/data/imgs/nuovi_positivi_su_nuovi_tamponi_n_7.png)
+#### Nuovi positivi
+![Nuovi positivi](/data/imgs/nuovi_positivi_n_30.png)
 
 #### Rapporto nuovi positivi / nuovi tamponi negli ultimi 30 giorni
 ![Nuovi positivi su nuovi tamponi_30](/data/imgs/nuovi_positivi_su_nuovi_tamponi_n_30.png)
@@ -15,17 +15,26 @@ Di seguito sono riportati alcuni grafici che mostrano la variazione nel tempo de
 #### Rapporto nuovi positivi / nuovi casi testati negli ultimi 30 giorni
 ![Nuovi positivi su nuovi casi_testati_30](/data/imgs/nuovi_positivi_su_nuovi_casi_testati_n_30.png)
 
+#### Totale dei positivi negli ultimi 30 giorni
+![Totale positivi](/data/imgs/totale_positivi_n_30.png)
+
+#### Variazione in percentuale del totale dei positivi negli ultimi 30 giorni
+![Variazione totale positivi 30](/data/imgs/variazione_totale_positivi_perc_n_30.png)
+
 #### Positivi in terapia intensiva negli ultimi 30 giorni
-![Terapia_intensiva_30](/data/imgs/terapia_intensiva_n_30.png)
+![Terapia intensiva 30](/data/imgs/terapia_intensiva_n_30.png)
 
 #### Variazione in percentuale dei positivi in terapia intensiva negli ultimi 30 giorni
-![Terapia_intensiva_30](/data/imgs/variazione_terapia_intensiva_perc_n_30.png)
+![Variazione terapia intensiva 30](/data/imgs/variazione_terapia_intensiva_perc_n_30.png)
+
+#### Totale degli ospedalizzati negli ultimi 30 giorni
+![Terapia ospedalizzati 30](/data/imgs/totale_ospedalizzati_n_30.png)
 
 #### Nuovi deceduti negli ultimi 30 giorni
 ![Nuovi deceduti_30](/data/imgs/nuovi_deceduti_n_30.png)
 
 #### Nuovi dimessi guariti negli ultimi 30 giorni
-![Nuovi dimessi_guariti_30](/data/imgs/nuovi_dimessi_guariti_n_30.png)
+![Nuovi dimessi guariti 30](/data/imgs/nuovi_dimessi_guariti_n_30.png)
 
 ### Mappe per regione
 
