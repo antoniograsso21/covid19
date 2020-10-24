@@ -113,25 +113,31 @@ class Visualizer:
     
     @staticmethod
     def plot_hist_from_values(df, x_values, y_values, x_label, y_label,
-                              x_tick_labels=None, y_tick_labels=None,
-                              color='YlOrRd', reversescale=False, save_info=None,
+                              x_ticks=None, y_ticks=None,
+                              color='YlOrRd', reversescale=False, labels_font=14, save_info=None,
                               fig_size=(12, 8)):
         """
         TODO
         """
         sns.set(rc={'figure.figsize':fig_size})
+        # sns.set_style('ticks')
         if reversescale:
             color += '_r'
         # color = 'RdYlGn_r'  # reversed palette
         palette = Visualizer.colors_from_values(df[y_values], color)
         g = sns.barplot(x=x_values, y=y_values, palette=palette, data=df);
         # g = sns.barplot(x='data', y='np_su_nt', color='red', data=df_n);
-        g.set(xlabel=x_label, ylabel=y_label)
-        # TODO: rotation parametrica
-        if x_tick_labels is not None:
-            g.set_xticklabels(labels=x_tick_labels, rotation=90)
-        if y_tick_labels is not None:
-            g.set_yticklabel(labels=y_tick_labels)
+        # TODO: parametric rotation
+        x_ticks_labels = x_ticks if x_ticks is not None else g.get_xticks()
+        y_ticks_labels = y_ticks if y_ticks is not None else g.get_yticks()
+        # Set axes ticks
+        label_format = '{:.0f}'
+        g.set_yticks(g.get_yticks().tolist())
+        g.set_xticklabels(labels=x_ticks_labels, fontsize=labels_font - 1, rotation=90)
+        g.set_yticklabels(labels=[label_format.format(x) for x in g.get_yticks().tolist()], fontsize=labels_font - 1)
+        # Set axes labels
+        g.set_xlabel(x_label, fontsize=labels_font)
+        g.set_ylabel(y_label, fontsize=labels_font)
         if save_info:
             g.get_figure().savefig('{path}/{name}{ext}'.format(
                 path=save_info['path'], name=save_info['file_name'],
