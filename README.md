@@ -1,5 +1,5 @@
 # COVID-19 in Italia
-Questa repository contiene Jupyter Notebook per la visualizzazione di mappe e grafici sulla pandemia da COVID-19 in Italia.
+Questa repository contiene Jupyter Notebook per la visualizzazione dei dati relativi alla pandemia da COVID-19 in Italia.
 I dati sull'andamento della pandemia in Italia sono liberamente tratti dalla repository [COVID-19](https://github.com/pcm-dpc/COVID-19), messa a disposizione dal Dipartimento della Protezione Civile sotto licenza [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.it).
 
 ### Grafici andamento nazionale

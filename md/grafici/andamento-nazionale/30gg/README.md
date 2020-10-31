@@ -1,6 +1,6 @@
-## Grafici andamento nazionale negli ultimi **30 giorni**
+## Grafici andamento nazionale negli ultimi 30 giorni
 
-Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pandemia in Italia negli ultimi 30 giorni.
+Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pandemia in Italia negli **ultimi 30 giorni**.
 
 #### Nuovi positivi
 ![Nuovi positivi](/data/imgs/grafici/andamento-nazionale/30gg/nuovi_positivi.png)
