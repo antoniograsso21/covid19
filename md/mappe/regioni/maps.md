@@ -10,6 +10,7 @@ Di seguito sono riportate [mappe coropletiche](https://it.wikipedia.org/wiki/Map
 
 #### Saturazione dei posti in terapia intensiva
 La saturazione tiene conto dei soli posti di terapia intensiva occupati da pazienti positivi al covid. Non sono tenuti in considerazione i pazienti ricoverati con altre patologie.
+
 ![Saturazione terapia intensiva](/data/imgs/mappe/regioni/saturazione_terapia_intensiva.png)
 
 #### Totale dei positivi ospedalizzati
