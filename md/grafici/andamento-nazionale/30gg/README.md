@@ -38,4 +38,4 @@ Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pand
 #### Nuovi dimessi guariti
 ![Nuovi dimessi guariti](/data/imgs/grafici/andamento-nazionale/30gg/nuovi_dimessi_guariti.png)
 
-[Ritorna alla pagina principale](../../../../README.md)
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19)
