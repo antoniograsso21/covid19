@@ -22,8 +22,8 @@ I grafici relativi all'andamento **nazionale** dei dati sono consultabili alla s
 
 ### Mappe
 
-### Andamento Regionale
+#### Andamento Regionale
 Le mappe coropletiche relative all'andamento **regionale** dei dati sono consultabili alla seguente pagina: [mappe regionali](md/mappe/regioni/README.md)
 
-### Andamento Provinciale
+#### Andamento Provinciale
 Le mappe coropletiche relative all'andamento **provinciale** dei dati sono consultabili alla seguente pagina: [mappe provinciali](md/mappe/province/README.md)
