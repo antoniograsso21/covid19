@@ -7,3 +7,5 @@ Di seguito sono riportate [mappe coropletiche](https://it.wikipedia.org/wiki/Map
 
 #### Variazione totale casi
 ![Variazione_totale_casi](/data/imgs/mappe/province/variazione_totale_casi.png)
+
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19)
