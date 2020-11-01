@@ -14,7 +14,7 @@ La repository contiene attualmente 6 Jupyter Notebook, organizzati nel seguente 
     - [Visualizzazione provinciale](province_visualize.ipynb)
 Sia per il pre-processing sia per la visualizzazione dei dati vengono usati Jupyter Notebook differenti a seconda che i dati riguardino l'andamento nazionale, regionale o provinciale.
 
-### Grafici
+### Grafici 
 
 #### Andamento Nazionale
 I grafici relativi all'andamento **nazionale** dei dati sono consultabili alla seguente pagina: [grafici nazionali](md/grafici/andamento-nazionale/30gg/README.md)
