@@ -12,13 +12,13 @@ Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pand
 ![Nuovi positivi su nuovi casi_testati](/data/imgs/grafici/andamento-nazionale/07gg/nuovi_positivi_su_nuovi_casi_testati.png)
 
 #### Totale dei positivi
-![Totale positivi](/data/imgs/grafici/andamento-nazionale/60gg/totale_positivi.png)
+![Totale positivi](/data/imgs/grafici/andamento-nazionale/07gg/totale_positivi.png)
 
 #### Variazione in percentuale del totale dei positivi
 ![Variazione totale positivi](/data/imgs/grafici/andamento-nazionale/07gg/variazione_totale_positivi_perc.png)
 
 #### Positivi in terapia intensiva
-![Terapia intensiva](/data/imgs/grafici/andamento-nazionale/60gg/terapia_intensiva.png)
+![Terapia intensiva](/data/imgs/grafici/andamento-nazionale/07gg/terapia_intensiva.png)
 
 #### Variazione in percentuale dei positivi in terapia intensiva
 ![Variazione terapia intensiva](/data/imgs/grafici/andamento-nazionale/07gg/variazione_terapia_intensiva_perc.png)

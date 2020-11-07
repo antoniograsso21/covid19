@@ -17,9 +17,9 @@ La repository contiene attualmente 6 Jupyter Notebook, organizzati nel seguente 
 
 #### Andamento Nazionale
 I grafici relativi all'andamento **nazionale** dei dati sono disponibili per:
-- ultimi 2 mesi: [grafici nazionali](md/grafici/andamento-nazionale/60gg/README.md)
-- ultimo mese: [grafici nazionali](md/grafici/andamento-nazionale/30gg/README.md)
-- ultima settimana: [grafici nazionali](md/grafici/andamento-nazionale/07gg/README.md)
+- [ultimi 2 mesi](md/grafici/andamento-nazionale/60gg/README.md)
+- [ultimo mese](md/grafici/andamento-nazionale/30gg/README.md)
+- [ultima settimana](md/grafici/andamento-nazionale/07gg/README.md)
 
 ### Mappe
 Per la visualizzazione dei dati regionali e provinciali relativi all'ultima data disponibile sono state generate [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica).
