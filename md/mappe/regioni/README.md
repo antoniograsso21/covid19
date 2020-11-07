@@ -25,4 +25,4 @@ La saturazione tiene conto dei soli posti di terapia intensiva occupati da pazie
 #### Variazione del totale degli ospedalizzati rispetto al giorno precedente
 ![Variazione totale ospedalizzati](/data/imgs/mappe/regioni/variazione_totale_ospedalizzati.png)
 
-[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#covid-19-in-italia)
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#andamento-regionale)

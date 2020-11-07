@@ -8,4 +8,4 @@ Di seguito sono riportate mappe coropletiche che mostrano i dati della pandemia 
 #### Variazione totale casi rispetto al giorno precedente
 ![Variazione_totale_casi](/data/imgs/mappe/province/variazione_totale_casi.png)
 
-[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#covid-19-in-italia)
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#andamento-provinciale)
