@@ -3,9 +3,6 @@
 Di seguito sono riportate mappe coropletiche che mostrano i dati della pandemia in Italia per l'ultima data disponibile, suddivisi per **regione**.
 
 #### Nuovi positivi
-![Nuovi positivi](/data/imgs/mappe/regioni/nuovi_positivi.html)
-
-#### Nuovi positivi
 ![Nuovi positivi](/data/imgs/mappe/regioni/nuovi_positivi.png)
 
 #### Totale dei positivi in terapia intensiva
