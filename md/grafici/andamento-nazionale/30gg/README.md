@@ -1,6 +1,6 @@
-## Grafici andamento nazionale negli ultimi 30 giorni
+## Grafici andamento nazionale nell'ultimo mese
 
-Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pandemia in Italia negli **ultimi 30 giorni**.
+Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pandemia in Italia nell'**ultimo mese**.
 
 #### Nuovi positivi
 ![Nuovi positivi](/data/imgs/grafici/andamento-nazionale/30gg/nuovi_positivi.png)
@@ -38,4 +38,4 @@ Di seguito sono riportati i grafici che mostrano l'andamento dei dati della pand
 #### Nuovi dimessi guariti
 ![Nuovi dimessi guariti](/data/imgs/grafici/andamento-nazionale/30gg/nuovi_dimessi_guariti.png)
 
-[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19)
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#covid-19-in-italia)

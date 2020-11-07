@@ -13,14 +13,17 @@ La repository contiene attualmente 6 Jupyter Notebook, organizzati nel seguente 
     - [Visualizzazione regionale](regional_visualize.ipynb)
     - [Visualizzazione provinciale](province_visualize.ipynb)
 
-Sia per il pre-processing sia per la visualizzazione dei dati vengono usati Jupyter Notebook differenti a seconda che i dati riguardino l'andamento nazionale, regionale o provinciale.
-
 ### Grafici 
 
 #### Andamento Nazionale
-I grafici relativi all'andamento **nazionale** dei dati sono consultabili alla seguente pagina: [grafici nazionali](md/grafici/andamento-nazionale/30gg/README.md)
+I grafici relativi all'andamento **nazionale** dei dati sono disponibili per:
+- ultimi 2 mesi: [grafici nazionali](md/grafici/andamento-nazionale/60gg/README.md)
+- ultimo mese: [grafici nazionali](md/grafici/andamento-nazionale/30gg/README.md)
+- ultima settimana: [grafici nazionali](md/grafici/andamento-nazionale/07gg/README.md)
 
 ### Mappe
+Per la visualizzazione dei dati regionali e provinciali relativi all'ultima data disponibile sono state generate [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica).
+<!-- I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020. -->
 
 #### Andamento Regionale
 Le mappe coropletiche relative all'andamento **regionale** dei dati sono consultabili alla seguente pagina: [mappe regionali](md/mappe/regioni/README.md)

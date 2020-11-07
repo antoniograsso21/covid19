@@ -1,6 +1,6 @@
 ## Mappe per regione
 
-Di seguito sono riportate [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica) che mostrano i dati della pandemia in Italia per l'ultima data disponibile, suddivisi per regione. I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020.
+Di seguito sono riportate mappe coropletiche che mostrano i dati della pandemia in Italia per l'ultima data disponibile, suddivisi per **regione**.
 
 #### Nuovi positivi
 ![Nuovi positivi](/data/imgs/mappe/regioni/nuovi_positivi.png)
@@ -25,4 +25,4 @@ La saturazione tiene conto dei soli posti di terapia intensiva occupati da pazie
 #### Variazione del totale degli ospedalizzati rispetto al giorno precedente
 ![Variazione totale ospedalizzati](/data/imgs/mappe/regioni/variazione_totale_ospedalizzati.png)
 
-[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19)
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#covid-19-in-italia)
