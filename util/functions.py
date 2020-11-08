@@ -65,7 +65,8 @@ class Functions:
         """
         Replace Trento and Bolzano province rows with aggregated Trentino-Alto Adige row
         """
-        s_taa_right = df[df['codice_regione'] > 20][df.columns[6:-1]].sum()
-        s_taa_left = pd.Series([df['data'][0], df['stato'][0], 4, 'Trentino-Alto Adige', 46.382635, 11.204676], df.columns[:6])
+        s_taa_right = df[df['codice_regione'] > 20][df.columns[3:-1]].sum()
+        s_taa_left = pd.Series([df['data'][0], 4, 'Trentino-Alto Adige'], df.columns[:3])
         row_taa = s_taa_left.append(s_taa_right)
-        return df[df['codice_regione'] <= 20].append(row_taa, ignore_index=True)
+        df_result = df[df['codice_regione'] <= 20].append(row_taa, ignore_index=True)
+        return df_result
