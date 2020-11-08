@@ -11,7 +11,7 @@ class Visualizer:
     COLORS = {'seq': px.colors.sequential, 
               'div': px.colors.diverging,
               'cyc': px.colors.cyclical}
-    FILE_EXT = '.png'
+    FILE_EXT = 'png'
     
     @staticmethod
     def choropleth_go(df,
@@ -53,13 +53,16 @@ class Visualizer:
                         projection={'type': projection})
         fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
                           title={'text': fig_title, 'x':0.5, 'y':1})
-        fig.show() if interactive else fig.show(Visualizer.FILE_EXT[1:])
+        fig.show() if interactive else fig.show(Visualizer.FILE_EXT)
         if save_info:
-            fig.write_image('{path}/{name}{ext}'.format(
+            path_save = '{path}/{name}.{ext}'.format(
                 path=save_info['path'], name=save_info['file_name'],
                 ext=save_info['ext'] if 'ext' in save_info
-                else Visualizer.FILE_EXT))
-        
+                else Visualizer.FILE_EXT)
+            if 'ext' in save_info and save_info['ext'] == 'html':
+                fig.write_html(path_save)
+            else:
+                fig.write_image(path_save)
     
     @staticmethod
     def choropleth_px(df,
@@ -139,7 +142,7 @@ class Visualizer:
         g.set_xlabel(x_label, fontsize=labels_font)
         g.set_ylabel(y_label, fontsize=labels_font)
         if save_info:
-            g.get_figure().savefig('{path}/{name}{ext}'.format(
+            g.get_figure().savefig('{path}/{name}.{ext}'.format(
                 path=save_info['path'], name=save_info['file_name'],
                 ext=save_info['ext'] if 'ext' in save_info
                 else Visualizer.FILE_EXT), bbox_inches = 'tight')
