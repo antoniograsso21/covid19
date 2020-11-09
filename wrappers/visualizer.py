@@ -63,7 +63,7 @@ class Visualizer:
                 fig.write_html(path_save)
             else:
                 fig.write_image(path_save)
-    
+
     @staticmethod
     def choropleth_px(df,
                       geojson,
@@ -145,5 +145,10 @@ class Visualizer:
             g.get_figure().savefig('{path}/{name}.{ext}'.format(
                 path=save_info['path'], name=save_info['file_name'],
                 ext=save_info['ext'] if 'ext' in save_info
-                else Visualizer.FILE_EXT), bbox_inches = 'tight')
-        
+                else Visualizer.FILE_EXT), bbox_inches='tight')
+   
+
+class ChoroplethMap:
+
+    def __init__(self):
+        pass
