@@ -34,7 +34,7 @@ class Visualizer:
         TODO
         """
         colorscale = getattr(Visualizer.COLORS[colorscale_type], colorscale_color)
-        
+
         fig = go.Figure(
             data=go.Choropleth(
                 geojson=geojson,
@@ -100,7 +100,7 @@ class Visualizer:
                           title={'text': title, 'x':0.5, 'y':1})
         fig.show() if interactive else fig.show('png')
         return fig
-        
+
     @staticmethod
     def colors_from_values(values, palette_name):
         """
@@ -113,7 +113,7 @@ class Visualizer:
         # use the indices to get the colors
         palette = sns.color_palette(palette_name, len(values))
         return np.array(palette).take(indices, axis=0)
-    
+
     @staticmethod
     def plot_hist_from_values(df, x_values, y_values, x_label, y_label,
                               x_ticks=None, y_ticks=None,
@@ -146,9 +146,71 @@ class Visualizer:
                 path=save_info['path'], name=save_info['file_name'],
                 ext=save_info['ext'] if 'ext' in save_info
                 else Visualizer.FILE_EXT), bbox_inches='tight')
-   
+
 
 class ChoroplethMap:
 
-    def __init__(self):
-        pass
+    COLORS = {'seq': px.colors.sequential,
+              'div': px.colors.diverging,
+              'cyc': px.colors.cyclical}
+
+    def __init__(self, df, geo_map, geo_col: str, geo_prop: str,
+                 fig_prop, projection='mercator', file_ext: str = 'png'):
+        self.df = df
+        self.geo_map = geo_map
+        self.geo_col = geo_col
+        self.geo_prop = geo_prop
+        self.fig_prop = fig_prop
+        self.projection = projection
+        self._file_ext = file_ext
+
+    @property
+    def file_ext(self):
+        return self._file_ext
+
+    def draw_map(self, col: str,
+                 color: dict = {'type': 'seq', 'scale': 'Reds'},
+                 reversescale: bool = False, zmin: int = None,
+                 zmid: int = None, zmax: int = None,
+                 interactive: bool = False):
+
+        colorscale = getattr(ChoroplethMap.COLORS[color['type']],
+                             color['scale'])
+        fig_title, colorbar_title = self.fig_prop['title'], \
+            self.fig_prop[col]['colorbar_title']
+
+        fig = go.Figure(
+            data=go.Choropleth(
+                geojson=self.geo_map,
+                locations=self.df[self.geo_col],
+                z=self.df[col],
+                featureidkey=self.geo_prop,
+                colorscale=colorscale,
+                reversescale=reversescale,
+                zmid=zmid,
+                zmin=zmin,
+                zmax=zmax,
+                colorbar_title=colorbar_title
+            ))
+
+        fig.update_geos(fitbounds='locations',
+                        visible=False,
+                        projection={'type': self.projection})
+
+        fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
+                          title={'text': fig_title, 'x': 0.5, 'y': 1})
+
+        # Display either static or interactive map
+        fig.show() if interactive else fig.show(self.file_ext)
+
+        return fig
+
+    def save(self, fig, col: str):
+        path_out = '{path_root}/{name}.{ext}'.format(
+            path_root=self.fig_prop['path_root'],
+            name=self.fig_prop[col]['file_name'],
+            ext=self.file_ext)
+        if self.file_ext == 'html':
+            fig.write_html(path_out)
+        else:
+            fig.write_image(path_out)
