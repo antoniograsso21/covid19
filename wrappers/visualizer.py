@@ -7,12 +7,12 @@ import plotly.graph_objects as go
 
 
 class Visualizer:
-    
+
     COLORS = {'seq': px.colors.sequential, 
               'div': px.colors.diverging,
               'cyc': px.colors.cyclical}
     FILE_EXT = 'png'
-    
+
     @staticmethod
     def choropleth_go(df,
                       locations,
@@ -52,7 +52,7 @@ class Visualizer:
                         visible=False,
                         projection={'type': projection})
         fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0},
-                          title={'text': fig_title, 'x':0.5, 'y':1})
+                          title={'text': fig_title, 'x': 0.5, 'y': 1})
         fig.show() if interactive else fig.show(Visualizer.FILE_EXT)
         if save_info:
             path_save = '{path}/{name}.{ext}'.format(
@@ -81,9 +81,9 @@ class Visualizer:
         TODO
         """
         if not title:
-            title=color
+            title = color
         if not color_title:
-            color_title=color
+            color_title = color
         fig = px.choropleth(
             df,
             geojson=geojson,
