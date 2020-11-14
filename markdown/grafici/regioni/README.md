@@ -23,9 +23,9 @@ I grafici a barre che mostrano l'andamento dei dati della pandemia in Italia son
     - [ultimo mese](emilia-romagna/30gg/README.md)
     - [ultima settimana](emilia-romagna/07gg/README.md)
 - Friuli Venezia Giulia:
-    - [ultimi 2 mesi]("friuli venezia giulia/60gg/README.md")
-    - [ultimo mese]("friuli venezia giulia/30gg/README.md")
-    - [ultima settimana]("friuli venezia giulia/07gg/README.md")
+    - [ultimi 2 mesi](<friuli venezia giulia/60gg/README.md>)
+    - [ultimo mese](<friuli venezia giulia/30gg/README.md>)
+    - [ultima settimana](<friuli venezia giulia/07gg/README.md>)
 - Lazio:
     - [ultimi 2 mesi](lazio/60gg/README.md)
     - [ultimo mese](lazio/30gg/README.md)
@@ -67,13 +67,13 @@ I grafici a barre che mostrano l'andamento dei dati della pandemia in Italia son
     - [ultimo mese](toscana/30gg/README.md)
     - [ultima settimana](toscana/07gg/README.md)
 - Trentino-Alto Adige:
-    - [ultimi 2 mesi]("trentino-alto adige/60gg/README.md")
-    - [ultimo mese]("trentino-alto adige/30gg/README.md")
-    - [ultima settimana]("trentino-alto adige/07gg/README.md")    
+    - [ultimi 2 mesi](<trentino-alto adige/60gg/README.md>)
+    - [ultimo mese](<trentino-alto adige/30gg/README.md>)
+    - [ultima settimana](<trentino-alto adige/07gg/README.md>)    
 - Valle D'Aosta:
-    - [ultimi 2 mesi]("valle d'aosta/60gg/README.md")
-    - [ultimo mese]("valle d'aosta/30gg/README.md")
-    - [ultima settimana]("valle d'aosta/07gg/README.md")
+    - [ultimi 2 mesi](<valle d'aosta/60gg/README.md>)
+    - [ultimo mese](<valle d'aosta/30gg/README.md>)
+    - [ultima settimana](<valle d'aosta/07gg/README.md>)
 - Veneto:
     - [ultimi 2 mesi](veneto/60gg/README.md)
     - [ultimo mese](veneto/30gg/README.md)
