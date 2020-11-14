@@ -11,7 +11,7 @@ I grafici a barre relativi all'andamento **nazionale** dei dati sono disponibili
 - [ultima settimana](markdown/grafici/andamento-nazionale/07gg/README.md)
 
 #### Andamento Regionale
-I grafici a barre sono consultabili regione per regione alla seguente pagina: [grafici regionali](markdown/grafici/regioni/README.md)
+I grafici a barre relativi all'andamento **regionale** dei dati sono consultabili dalla seguente pagina: [grafici regionali](markdown/grafici/regioni/README.md)
 
 ### Mappe coropletiche
 Per la visualizzazione dei dati regionali e provinciali relativi all'ultima data disponibile sono state generate [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica).
@@ -23,6 +23,7 @@ Le mappe coropletiche relative all'andamento **regionale** dei dati sono consult
 #### Andamento Provinciale
 Le mappe coropletiche relative all'andamento **provinciale** dei dati sono consultabili alla seguente pagina: [mappe provinciali](markdown/mappe/province/README.md)
 
+<!--
 ### Struttura repository
 La repository contiene attualmente 6 Jupyter Notebook, organizzati nel seguente modo:
 - 3 Jupyter Notebook per il **pre-processing** dei dati:
@@ -33,3 +34,4 @@ La repository contiene attualmente 6 Jupyter Notebook, organizzati nel seguente 
     - [Visualizzazione nazionale](notebook/andamento_nazionale_visual.ipynb)
     - [Visualizzazione regionale](notebook/regioni_visual.ipynb)
     - [Visualizzazione provinciale](notebook/province_visual.ipynb)
+-->
