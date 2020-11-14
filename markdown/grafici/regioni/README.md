@@ -1,0 +1,82 @@
+## Grafici a barre regionali
+
+I grafici a barre che mostrano l'andamento dei dati della pandemia in Italia sono disponibili per ogni regione alle seguenti pagine:
+
+- Abruzzo:
+    - [ultimi 2 mesi](markdown/grafici/regioni/abruzzo/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/abruzzo/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/abruzzo/07gg/README.md)
+- Basilicata:
+    - [ultimi 2 mesi](markdown/grafici/regioni/basilicata/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/basilicata/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/basilicata/07gg/README.md)
+- Calabria:
+    - [ultimi 2 mesi](markdown/grafici/regioni/calabria/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/calabria/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/calabria/07gg/README.md)
+- Campania:
+    - [ultimi 2 mesi](markdown/grafici/regioni/campania/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/campania/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/campania/07gg/README.md)
+- Emilia-Romagna:
+    - [ultimi 2 mesi](markdown/grafici/regioni/emilia-romagna/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/emilia-romagna/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/emilia-romagna/07gg/README.md)
+- Friuli Venezia Giulia:
+    - [ultimi 2 mesi](markdown/grafici/regioni/friuli venezia giulia/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/friuli venezia giulia/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/friuli venezia giulia/07gg/README.md)
+- Lazio:
+    - [ultimi 2 mesi](markdown/grafici/regioni/lazio/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/lazio/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/lazio/07gg/README.md)
+- Liguria:
+    - [ultimi 2 mesi](markdown/grafici/regioni/liguria/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/liguria/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/liguria/07gg/README.md)
+- Lombardia:
+    - [ultimi 2 mesi](markdown/grafici/regioni/lombardia/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/lombardia/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/lombardia/07gg/README.md)
+- Marche:
+    - [ultimi 2 mesi](markdown/grafici/regioni/marche/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/marche/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/marche/07gg/README.md)
+- Molise:
+    - [ultimi 2 mesi](markdown/grafici/regioni/molise/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/molise/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/molise/07gg/README.md)
+- Piemonte:
+    - [ultimi 2 mesi](markdown/grafici/regioni/piemonte/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/piemonte/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/piemonte/07gg/README.md)
+- Puglia:
+    - [ultimi 2 mesi](markdown/grafici/regioni/puglia/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/puglia/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/puglia/07gg/README.md)
+- Sardegna:
+    - [ultimi 2 mesi](markdown/grafici/regioni/sardegna/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/sardegna/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/sardegna/07gg/README.md)
+- Sicilia:
+    - [ultimi 2 mesi](markdown/grafici/regioni/sicilia/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/sicilia/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/sicilia/07gg/README.md)
+- Toscana:
+    - [ultimi 2 mesi](markdown/grafici/regioni/toscana/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/toscana/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/toscana/07gg/README.md)
+- Trentino-Alto Adige:
+    - [ultimi 2 mesi](markdown/grafici/regioni/trentino-alto adige/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/trentino-alto adige/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/trentino-alto adige/07gg/README.md)    
+- Valle D'Aosta:
+    - [ultimi 2 mesi](markdown/grafici/regioni/valle d'aosta/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/valle d'aosta/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/valle d'aosta/07gg/README.md)
+- Veneto:
+    - [ultimi 2 mesi](markdown/grafici/regioni/veneto/60gg/README.md)
+    - [ultimo mese](markdown/grafici/regioni/veneto/30gg/README.md)
+    - [ultima settimana](markdown/grafici/regioni/veneto/07gg/README.md)
+
+[Ritorna alla pagina principale](https://github.com/antoniograsso21/covid19#andamento-regionale)
