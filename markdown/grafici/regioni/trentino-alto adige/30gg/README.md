@@ -1,8 +1,5 @@
 ## Grafici a barre Trentino-Alto Adige nell'ultimo mese
 
-Grafici non ancora disponibili.
-<!--
-
 Di seguito sono riportati i grafici a barre che mostrano l'andamento dei dati della pandemia in Trentino-Alto Adige nell'**ultimo mese**.
 
 #### Nuovi positivi
@@ -40,5 +37,5 @@ Di seguito sono riportati i grafici a barre che mostrano l'andamento dei dati de
 
 #### Nuovi dimessi guariti
 ![Nuovi dimessi guariti](</data/imgs/grafici/regioni/trentino-alto adige/30gg/nuovi_dimessi_guariti.png>)
--->
+
 [Ritorna alla pagina delle regioni](https://github.com/antoniograsso21/covid19/tree/main/markdown/grafici/regioni)
