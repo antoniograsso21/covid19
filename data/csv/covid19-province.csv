@@ -1,150 +1,150 @@
 data,codice_regione,denominazione_regione,codice_provincia,denominazione_provincia,sigla_provincia,totale_casi,variazione_totale_casi
-2020-11-22T17:00:00,1,Piemonte,1,Torino,TO,80947,1318
-2020-11-22T17:00:00,1,Piemonte,2,Vercelli,VC,5573,48
-2020-11-22T17:00:00,1,Piemonte,3,Novara,NO,11194,135
-2020-11-22T17:00:00,1,Piemonte,4,Cuneo,CN,19738,547
-2020-11-22T17:00:00,1,Piemonte,5,Asti,AT,6869,119
-2020-11-22T17:00:00,1,Piemonte,6,Alessandria,AL,12883,231
-2020-11-22T17:00:00,2,Valle d'Aosta,7,Aosta,AO,5945,99
-2020-11-22T17:00:00,7,Liguria,8,Imperia,IM,5124,65
-2020-11-22T17:00:00,7,Liguria,9,Savona,SV,5431,61
-2020-11-22T17:00:00,7,Liguria,10,Genova,GE,28715,334
-2020-11-22T17:00:00,7,Liguria,11,La Spezia,SP,6302,129
-2020-11-22T17:00:00,3,Lombardia,12,Varese,VA,38564,326
-2020-11-22T17:00:00,3,Lombardia,13,Como,CO,24231,316
-2020-11-22T17:00:00,3,Lombardia,14,Sondrio,SO,5784,218
-2020-11-22T17:00:00,3,Lombardia,15,Milano,MI,139309,2208
-2020-11-22T17:00:00,3,Lombardia,16,Bergamo,BG,23677,129
-2020-11-22T17:00:00,3,Lombardia,17,Brescia,BS,31612,196
-2020-11-22T17:00:00,3,Lombardia,18,Pavia,PV,18094,211
-2020-11-22T17:00:00,3,Lombardia,19,Cremona,CR,12123,89
-2020-11-22T17:00:00,3,Lombardia,20,Mantova,MN,10583,142
-2020-11-22T17:00:00,4,P.A. Bolzano,21,Bolzano,BZ,21200,535
-2020-11-22T17:00:00,4,P.A. Trento,22,Trento,TN,14132,159
-2020-11-22T17:00:00,5,Veneto,23,Verona,VR,23247,453
-2020-11-22T17:00:00,5,Veneto,24,Vicenza,VI,21370,580
-2020-11-22T17:00:00,5,Veneto,25,Belluno,BL,7218,111
-2020-11-22T17:00:00,5,Veneto,26,Treviso,TV,23908,514
-2020-11-22T17:00:00,5,Veneto,27,Venezia,VE,17804,543
-2020-11-22T17:00:00,5,Veneto,28,Padova,PD,23300,589
-2020-11-22T17:00:00,5,Veneto,29,Rovigo,RO,3283,85
-2020-11-22T17:00:00,6,Friuli Venezia Giulia,30,Udine,UD,10425,371
-2020-11-22T17:00:00,6,Friuli Venezia Giulia,31,Gorizia,GO,3008,103
-2020-11-22T17:00:00,6,Friuli Venezia Giulia,32,Trieste,TS,6206,129
-2020-11-22T17:00:00,8,Emilia-Romagna,33,Piacenza,PC,10724,169
-2020-11-22T17:00:00,8,Emilia-Romagna,34,Parma,PR,8800,132
-2020-11-22T17:00:00,8,Emilia-Romagna,35,Reggio nell'Emilia,RE,15539,353
-2020-11-22T17:00:00,8,Emilia-Romagna,36,Modena,MO,18695,468
-2020-11-22T17:00:00,8,Emilia-Romagna,37,Bologna,BO,22976,646
-2020-11-22T17:00:00,8,Emilia-Romagna,38,Ferrara,FE,5099,111
-2020-11-22T17:00:00,8,Emilia-Romagna,39,Ravenna,RA,6477,213
-2020-11-22T17:00:00,8,Emilia-Romagna,40,Forlì-Cesena,FC,7132,195
-2020-11-22T17:00:00,11,Marche,41,Pesaro e Urbino,PU,5344,85
-2020-11-22T17:00:00,11,Marche,42,Ancona,AN,7919,139
-2020-11-22T17:00:00,11,Marche,43,Macerata,MC,5937,161
-2020-11-22T17:00:00,11,Marche,44,Ascoli Piceno,AP,3470,56
-2020-11-22T17:00:00,9,Toscana,45,Massa Carrara,MS,5938,119
-2020-11-22T17:00:00,9,Toscana,46,Lucca,LU,9376,233
-2020-11-22T17:00:00,9,Toscana,47,Pistoia,PT,8152,164
-2020-11-22T17:00:00,9,Toscana,48,Firenze,FI,26703,611
-2020-11-22T17:00:00,9,Toscana,49,Livorno,LI,6641,115
-2020-11-22T17:00:00,9,Toscana,50,Pisa,PI,12974,273
-2020-11-22T17:00:00,9,Toscana,51,Arezzo,AR,8808,152
-2020-11-22T17:00:00,9,Toscana,52,Siena,SI,3936,60
-2020-11-22T17:00:00,9,Toscana,53,Grosseto,GR,3288,58
-2020-11-22T17:00:00,10,Umbria,54,Perugia,PG,15974,260
-2020-11-22T17:00:00,10,Umbria,55,Terni,TR,4842,119
-2020-11-22T17:00:00,12,Lazio,56,Viterbo,VT,6631,86
-2020-11-22T17:00:00,12,Lazio,57,Rieti,RI,2546,-66
-2020-11-22T17:00:00,12,Lazio,58,Roma,RM,75515,2292
-2020-11-22T17:00:00,12,Lazio,59,Latina,LT,7720,198
-2020-11-22T17:00:00,12,Lazio,60,Frosinone,FR,8802,3
-2020-11-22T17:00:00,15,Campania,61,Caserta,CE,26118,498
-2020-11-22T17:00:00,15,Campania,62,Benevento,BN,2293,17
-2020-11-22T17:00:00,15,Campania,63,Napoli,,85045,2373
-2020-11-22T17:00:00,15,Campania,64,Avellino,AV,6388,87
-2020-11-22T17:00:00,15,Campania,65,Salerno,SA,16401,259
-2020-11-22T17:00:00,13,Abruzzo,66,L'Aquila,AQ,7788,222
-2020-11-22T17:00:00,13,Abruzzo,67,Teramo,TE,6171,89
-2020-11-22T17:00:00,13,Abruzzo,68,Pescara,PE,4733,105
-2020-11-22T17:00:00,13,Abruzzo,69,Chieti,CH,4557,137
-2020-11-22T17:00:00,14,Molise,70,Campobasso,CB,2447,75
-2020-11-22T17:00:00,16,Puglia,71,Foggia,FG,10168,397
-2020-11-22T17:00:00,16,Puglia,72,Bari,BA,16892,403
-2020-11-22T17:00:00,16,Puglia,73,Taranto,TA,4920,197
-2020-11-22T17:00:00,16,Puglia,74,Brindisi,BR,2995,52
-2020-11-22T17:00:00,16,Puglia,75,Lecce,LE,3388,151
-2020-11-22T17:00:00,17,Basilicata,76,Potenza,PZ,4028,137
-2020-11-22T17:00:00,17,Basilicata,77,Matera,MT,2275,67
-2020-11-22T17:00:00,18,Calabria,78,Cosenza,CS,3926,136
-2020-11-22T17:00:00,18,Calabria,79,Catanzaro,CZ,2111,59
-2020-11-22T17:00:00,18,Calabria,80,Reggio di Calabria,RC,5374,149
-2020-11-22T17:00:00,19,Sicilia,81,Trapani,TP,3912,10
-2020-11-22T17:00:00,19,Sicilia,82,Palermo,PA,15673,420
-2020-11-22T17:00:00,19,Sicilia,83,Messina,ME,5248,94
-2020-11-22T17:00:00,19,Sicilia,84,Agrigento,AG,2408,60
-2020-11-22T17:00:00,19,Sicilia,85,Caltanissetta,CL,2275,102
-2020-11-22T17:00:00,19,Sicilia,86,Enna,EN,1788,1
-2020-11-22T17:00:00,19,Sicilia,87,Catania,CT,13689,427
-2020-11-22T17:00:00,19,Sicilia,88,Ragusa,RG,4868,61
-2020-11-22T17:00:00,19,Sicilia,89,Siracusa,SR,3243,83
-2020-11-22T17:00:00,20,Sardegna,90,Sassari,SS,7008,134
-2020-11-22T17:00:00,20,Sardegna,91,Nuoro,NU,3128,23
-2020-11-22T17:00:00,20,Sardegna,92,Cagliari,CA,3866,83
-2020-11-22T17:00:00,6,Friuli Venezia Giulia,93,Pordenone,PN,4707,69
-2020-11-22T17:00:00,14,Molise,94,Isernia,IS,1418,17
-2020-11-22T17:00:00,20,Sardegna,95,Oristano,OR,1568,102
-2020-11-22T17:00:00,1,Piemonte,96,Biella,BI,5247,67
-2020-11-22T17:00:00,3,Lombardia,97,Lecco,LC,10041,197
-2020-11-22T17:00:00,3,Lombardia,98,Lodi,LO,8063,137
-2020-11-22T17:00:00,8,Emilia-Romagna,99,Rimini,RN,8174,334
-2020-11-22T17:00:00,9,Toscana,100,Prato,PO,8334,144
-2020-11-22T17:00:00,18,Calabria,101,Crotone,KR,1168,67
-2020-11-22T17:00:00,18,Calabria,102,Vibo Valentia,VV,829,33
-2020-11-22T17:00:00,1,Piemonte,103,Verbano-Cusio-Ossola,VB,4820,151
-2020-11-22T17:00:00,3,Lombardia,108,Monza e della Brianza,MB,38959,843
-2020-11-22T17:00:00,11,Marche,109,Fermo,FM,3107,55
-2020-11-22T17:00:00,16,Puglia,110,Barletta-Andria-Trani,BT,4833,116
-2020-11-22T17:00:00,20,Sardegna,111,Sud Sardegna,SU,2923,62
-2020-11-22T17:00:00,13,Abruzzo,879,Fuori Regione / Provincia Autonoma,,225,8
-2020-11-22T17:00:00,17,Basilicata,880,Fuori Regione / Provincia Autonoma,,267,4
-2020-11-22T17:00:00,4,P.A. Bolzano,881,Fuori Regione / Provincia Autonoma,,0,0
-2020-11-22T17:00:00,18,Calabria,882,Fuori Regione / Provincia Autonoma,,488,0
-2020-11-22T17:00:00,15,Campania,883,Fuori Regione / Provincia Autonoma,,0,0
-2020-11-22T17:00:00,8,Emilia-Romagna,884,Fuori Regione / Provincia Autonoma,,1498,36
-2020-11-22T17:00:00,6,Friuli Venezia Giulia,885,Fuori Regione / Provincia Autonoma,,312,3
-2020-11-22T17:00:00,12,Lazio,886,Fuori Regione / Provincia Autonoma,,1405,20
-2020-11-22T17:00:00,7,Liguria,887,Fuori Regione / Provincia Autonoma,,945,11
-2020-11-22T17:00:00,3,Lombardia,888,Fuori Regione / Provincia Autonoma,,3895,33
-2020-11-22T17:00:00,11,Marche,889,Fuori Regione / Provincia Autonoma,,817,33
-2020-11-22T17:00:00,14,Molise,890,Fuori Regione / Provincia Autonoma,,44,1
-2020-11-22T17:00:00,1,Piemonte,891,Fuori Regione / Provincia Autonoma,,866,10
-2020-11-22T17:00:00,16,Puglia,892,Fuori Regione / Provincia Autonoma,,306,7
-2020-11-22T17:00:00,20,Sardegna,893,Fuori Regione / Provincia Autonoma,,0,0
-2020-11-22T17:00:00,19,Sicilia,894,Fuori Regione / Provincia Autonoma,,0,0
-2020-11-22T17:00:00,9,Toscana,895,Fuori Regione / Provincia Autonoma,,555,0
-2020-11-22T17:00:00,4,P.A. Trento,896,Fuori Regione / Provincia Autonoma,,0,0
-2020-11-22T17:00:00,10,Umbria,897,Fuori Regione / Provincia Autonoma,,953,21
-2020-11-22T17:00:00,2,Valle d'Aosta,898,Fuori Regione / Provincia Autonoma,,77,0
-2020-11-22T17:00:00,5,Veneto,899,Fuori Regione / Provincia Autonoma,,2130,57
-2020-11-22T17:00:00,13,Abruzzo,979,In fase di definizione/aggiornamento,,174,-1
-2020-11-22T17:00:00,17,Basilicata,980,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,4,P.A. Bolzano,981,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,18,Calabria,982,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,15,Campania,983,In fase di definizione/aggiornamento,,28,-17
-2020-11-22T17:00:00,8,Emilia-Romagna,984,In fase di definizione/aggiornamento,,615,8
-2020-11-22T17:00:00,6,Friuli Venezia Giulia,985,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,12,Lazio,986,In fase di definizione/aggiornamento,,21,0
-2020-11-22T17:00:00,7,Liguria,987,In fase di definizione/aggiornamento,,1610,11
-2020-11-22T17:00:00,3,Lombardia,988,In fase di definizione/aggiornamento,,6675,49
-2020-11-22T17:00:00,11,Marche,989,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,14,Molise,990,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,1,Piemonte,991,In fase di definizione/aggiornamento,,1438,15
-2020-11-22T17:00:00,16,Puglia,992,In fase di definizione/aggiornamento,,5,4
-2020-11-22T17:00:00,20,Sardegna,993,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,19,Sicilia,994,In fase di definizione/aggiornamento,,25,0
-2020-11-22T17:00:00,9,Toscana,995,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,4,P.A. Trento,996,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,10,Umbria,997,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,2,Valle d'Aosta,998,In fase di definizione/aggiornamento,,0,0
-2020-11-22T17:00:00,5,Veneto,999,In fase di definizione/aggiornamento,,422,24
+2020-11-23T17:00:00,1,Piemonte,1,Torino,TO,81759,812
+2020-11-23T17:00:00,1,Piemonte,2,Vercelli,VC,5643,70
+2020-11-23T17:00:00,1,Piemonte,3,Novara,NO,11508,314
+2020-11-23T17:00:00,1,Piemonte,4,Cuneo,CN,19920,182
+2020-11-23T17:00:00,1,Piemonte,5,Asti,AT,6934,65
+2020-11-23T17:00:00,1,Piemonte,6,Alessandria,AL,13030,147
+2020-11-23T17:00:00,2,Valle d'Aosta,7,Aosta,AO,6022,77
+2020-11-23T17:00:00,7,Liguria,8,Imperia,IM,5140,16
+2020-11-23T17:00:00,7,Liguria,9,Savona,SV,5459,28
+2020-11-23T17:00:00,7,Liguria,10,Genova,GE,28900,185
+2020-11-23T17:00:00,7,Liguria,11,La Spezia,SP,6335,33
+2020-11-23T17:00:00,3,Lombardia,12,Varese,VA,39412,848
+2020-11-23T17:00:00,3,Lombardia,13,Como,CO,25073,842
+2020-11-23T17:00:00,3,Lombardia,14,Sondrio,SO,5817,33
+2020-11-23T17:00:00,3,Lombardia,15,Milano,MI,140913,1604
+2020-11-23T17:00:00,3,Lombardia,16,Bergamo,BG,23842,165
+2020-11-23T17:00:00,3,Lombardia,17,Brescia,BS,32017,405
+2020-11-23T17:00:00,3,Lombardia,18,Pavia,PV,18179,85
+2020-11-23T17:00:00,3,Lombardia,19,Cremona,CR,12186,63
+2020-11-23T17:00:00,3,Lombardia,20,Mantova,MN,10640,57
+2020-11-23T17:00:00,4,P.A. Bolzano,21,Bolzano,BZ,21460,260
+2020-11-23T17:00:00,4,P.A. Trento,22,Trento,TN,14225,93
+2020-11-23T17:00:00,5,Veneto,23,Verona,VR,23365,118
+2020-11-23T17:00:00,5,Veneto,24,Vicenza,VI,22157,787
+2020-11-23T17:00:00,5,Veneto,25,Belluno,BL,7370,152
+2020-11-23T17:00:00,5,Veneto,26,Treviso,TV,24314,406
+2020-11-23T17:00:00,5,Veneto,27,Venezia,VE,18177,373
+2020-11-23T17:00:00,5,Veneto,28,Padova,PD,23887,587
+2020-11-23T17:00:00,5,Veneto,29,Rovigo,RO,3347,64
+2020-11-23T17:00:00,6,Friuli Venezia Giulia,30,Udine,UD,10614,189
+2020-11-23T17:00:00,6,Friuli Venezia Giulia,31,Gorizia,GO,3035,27
+2020-11-23T17:00:00,6,Friuli Venezia Giulia,32,Trieste,TS,6334,128
+2020-11-23T17:00:00,8,Emilia-Romagna,33,Piacenza,PC,10872,148
+2020-11-23T17:00:00,8,Emilia-Romagna,34,Parma,PR,9003,203
+2020-11-23T17:00:00,8,Emilia-Romagna,35,Reggio nell'Emilia,RE,15841,302
+2020-11-23T17:00:00,8,Emilia-Romagna,36,Modena,MO,19174,479
+2020-11-23T17:00:00,8,Emilia-Romagna,37,Bologna,BO,23436,460
+2020-11-23T17:00:00,8,Emilia-Romagna,38,Ferrara,FE,5205,106
+2020-11-23T17:00:00,8,Emilia-Romagna,39,Ravenna,RA,6681,204
+2020-11-23T17:00:00,8,Emilia-Romagna,40,Forlì-Cesena,FC,7286,154
+2020-11-23T17:00:00,11,Marche,41,Pesaro e Urbino,PU,5372,28
+2020-11-23T17:00:00,11,Marche,42,Ancona,AN,8009,90
+2020-11-23T17:00:00,11,Marche,43,Macerata,MC,5949,12
+2020-11-23T17:00:00,11,Marche,44,Ascoli Piceno,AP,3484,14
+2020-11-23T17:00:00,9,Toscana,45,Massa Carrara,MS,6013,75
+2020-11-23T17:00:00,9,Toscana,46,Lucca,LU,9501,125
+2020-11-23T17:00:00,9,Toscana,47,Pistoia,PT,8280,128
+2020-11-23T17:00:00,9,Toscana,48,Firenze,FI,27068,365
+2020-11-23T17:00:00,9,Toscana,49,Livorno,LI,6745,104
+2020-11-23T17:00:00,9,Toscana,50,Pisa,PI,13164,190
+2020-11-23T17:00:00,9,Toscana,51,Arezzo,AR,8925,117
+2020-11-23T17:00:00,9,Toscana,52,Siena,SI,3973,37
+2020-11-23T17:00:00,9,Toscana,53,Grosseto,GR,3363,75
+2020-11-23T17:00:00,10,Umbria,54,Perugia,PG,16053,79
+2020-11-23T17:00:00,10,Umbria,55,Terni,TR,4865,23
+2020-11-23T17:00:00,12,Lazio,56,Viterbo,VT,6738,107
+2020-11-23T17:00:00,12,Lazio,57,Rieti,RI,2607,61
+2020-11-23T17:00:00,12,Lazio,58,Roma,RM,77484,1969
+2020-11-23T17:00:00,12,Lazio,59,Latina,LT,7744,24
+2020-11-23T17:00:00,12,Lazio,60,Frosinone,FR,8965,163
+2020-11-23T17:00:00,15,Campania,61,Caserta,CE,26375,257
+2020-11-23T17:00:00,15,Campania,62,Benevento,BN,2389,96
+2020-11-23T17:00:00,15,Campania,63,Napoli,,86302,1257
+2020-11-23T17:00:00,15,Campania,64,Avellino,AV,6472,84
+2020-11-23T17:00:00,15,Campania,65,Salerno,SA,16745,344
+2020-11-23T17:00:00,13,Abruzzo,66,L'Aquila,AQ,7994,206
+2020-11-23T17:00:00,13,Abruzzo,67,Teramo,TE,6474,303
+2020-11-23T17:00:00,13,Abruzzo,68,Pescara,PE,4790,57
+2020-11-23T17:00:00,13,Abruzzo,69,Chieti,CH,4638,81
+2020-11-23T17:00:00,14,Molise,70,Campobasso,CB,2508,61
+2020-11-23T17:00:00,16,Puglia,71,Foggia,FG,10336,168
+2020-11-23T17:00:00,16,Puglia,72,Bari,BA,17296,404
+2020-11-23T17:00:00,16,Puglia,73,Taranto,TA,5059,139
+2020-11-23T17:00:00,16,Puglia,74,Brindisi,BR,3061,66
+2020-11-23T17:00:00,16,Puglia,75,Lecce,LE,3404,16
+2020-11-23T17:00:00,17,Basilicata,76,Potenza,PZ,4057,29
+2020-11-23T17:00:00,17,Basilicata,77,Matera,MT,2304,29
+2020-11-23T17:00:00,18,Calabria,78,Cosenza,CS,4065,139
+2020-11-23T17:00:00,18,Calabria,79,Catanzaro,CZ,2130,19
+2020-11-23T17:00:00,18,Calabria,80,Reggio di Calabria,RC,5494,120
+2020-11-23T17:00:00,19,Sicilia,81,Trapani,TP,3926,14
+2020-11-23T17:00:00,19,Sicilia,82,Palermo,PA,16086,413
+2020-11-23T17:00:00,19,Sicilia,83,Messina,ME,5293,45
+2020-11-23T17:00:00,19,Sicilia,84,Agrigento,AG,2412,4
+2020-11-23T17:00:00,19,Sicilia,85,Caltanissetta,CL,2319,44
+2020-11-23T17:00:00,19,Sicilia,86,Enna,EN,1822,34
+2020-11-23T17:00:00,19,Sicilia,87,Catania,CT,14123,434
+2020-11-23T17:00:00,19,Sicilia,88,Ragusa,RG,5028,160
+2020-11-23T17:00:00,19,Sicilia,89,Siracusa,SR,3344,101
+2020-11-23T17:00:00,20,Sardegna,90,Sassari,SS,7145,137
+2020-11-23T17:00:00,20,Sardegna,91,Nuoro,NU,3286,158
+2020-11-23T17:00:00,20,Sardegna,92,Cagliari,CA,3951,85
+2020-11-23T17:00:00,6,Friuli Venezia Giulia,93,Pordenone,PN,4735,28
+2020-11-23T17:00:00,14,Molise,94,Isernia,IS,1448,30
+2020-11-23T17:00:00,20,Sardegna,95,Oristano,OR,1568,0
+2020-11-23T17:00:00,1,Piemonte,96,Biella,BI,5286,39
+2020-11-23T17:00:00,3,Lombardia,97,Lecco,LC,10225,184
+2020-11-23T17:00:00,3,Lombardia,98,Lodi,LO,8201,138
+2020-11-23T17:00:00,8,Emilia-Romagna,99,Rimini,RN,8433,259
+2020-11-23T17:00:00,9,Toscana,100,Prato,PO,8441,107
+2020-11-23T17:00:00,18,Calabria,101,Crotone,KR,1168,0
+2020-11-23T17:00:00,18,Calabria,102,Vibo Valentia,VV,872,43
+2020-11-23T17:00:00,1,Piemonte,103,Verbano-Cusio-Ossola,VB,4919,99
+2020-11-23T17:00:00,3,Lombardia,108,Monza e della Brianza,MB,39708,749
+2020-11-23T17:00:00,11,Marche,109,Fermo,FM,3123,16
+2020-11-23T17:00:00,16,Puglia,110,Barletta-Andria-Trani,BT,5020,187
+2020-11-23T17:00:00,20,Sardegna,111,Sud Sardegna,SU,3048,125
+2020-11-23T17:00:00,13,Abruzzo,879,Fuori Regione / Provincia Autonoma,,223,-2
+2020-11-23T17:00:00,17,Basilicata,880,Fuori Regione / Provincia Autonoma,,267,0
+2020-11-23T17:00:00,4,P.A. Bolzano,881,Fuori Regione / Provincia Autonoma,,0,0
+2020-11-23T17:00:00,18,Calabria,882,Fuori Regione / Provincia Autonoma,,488,0
+2020-11-23T17:00:00,15,Campania,883,Fuori Regione / Provincia Autonoma,,0,0
+2020-11-23T17:00:00,8,Emilia-Romagna,884,Fuori Regione / Provincia Autonoma,,1519,21
+2020-11-23T17:00:00,6,Friuli Venezia Giulia,885,Fuori Regione / Provincia Autonoma,,317,5
+2020-11-23T17:00:00,12,Lazio,886,Fuori Regione / Provincia Autonoma,,1419,14
+2020-11-23T17:00:00,7,Liguria,887,Fuori Regione / Provincia Autonoma,,953,8
+2020-11-23T17:00:00,3,Lombardia,888,Fuori Regione / Provincia Autonoma,,3941,46
+2020-11-23T17:00:00,11,Marche,889,Fuori Regione / Provincia Autonoma,,818,1
+2020-11-23T17:00:00,14,Molise,890,Fuori Regione / Provincia Autonoma,,44,0
+2020-11-23T17:00:00,1,Piemonte,891,Fuori Regione / Provincia Autonoma,,872,6
+2020-11-23T17:00:00,16,Puglia,892,Fuori Regione / Provincia Autonoma,,309,3
+2020-11-23T17:00:00,20,Sardegna,893,Fuori Regione / Provincia Autonoma,,0,0
+2020-11-23T17:00:00,19,Sicilia,894,Fuori Regione / Provincia Autonoma,,0,0
+2020-11-23T17:00:00,9,Toscana,895,Fuori Regione / Provincia Autonoma,,555,0
+2020-11-23T17:00:00,4,P.A. Trento,896,Fuori Regione / Provincia Autonoma,,0,0
+2020-11-23T17:00:00,10,Umbria,897,Fuori Regione / Provincia Autonoma,,956,3
+2020-11-23T17:00:00,2,Valle d'Aosta,898,Fuori Regione / Provincia Autonoma,,77,0
+2020-11-23T17:00:00,5,Veneto,899,Fuori Regione / Provincia Autonoma,,2161,31
+2020-11-23T17:00:00,13,Abruzzo,979,In fase di definizione/aggiornamento,,169,-5
+2020-11-23T17:00:00,17,Basilicata,980,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,4,P.A. Bolzano,981,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,18,Calabria,982,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,15,Campania,983,In fase di definizione/aggiornamento,,148,120
+2020-11-23T17:00:00,8,Emilia-Romagna,984,In fase di definizione/aggiornamento,,623,8
+2020-11-23T17:00:00,6,Friuli Venezia Giulia,985,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,12,Lazio,986,In fase di definizione/aggiornamento,,24,3
+2020-11-23T17:00:00,7,Liguria,987,In fase di definizione/aggiornamento,,1625,15
+2020-11-23T17:00:00,3,Lombardia,988,In fase di definizione/aggiornamento,,6745,70
+2020-11-23T17:00:00,11,Marche,989,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,14,Molise,990,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,1,Piemonte,991,In fase di definizione/aggiornamento,,1434,-4
+2020-11-23T17:00:00,16,Puglia,992,In fase di definizione/aggiornamento,,2,-3
+2020-11-23T17:00:00,20,Sardegna,993,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,19,Sicilia,994,In fase di definizione/aggiornamento,,25,0
+2020-11-23T17:00:00,9,Toscana,995,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,4,P.A. Trento,996,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,10,Umbria,997,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,2,Valle d'Aosta,998,In fase di definizione/aggiornamento,,0,0
+2020-11-23T17:00:00,5,Veneto,999,In fase di definizione/aggiornamento,,444,22
