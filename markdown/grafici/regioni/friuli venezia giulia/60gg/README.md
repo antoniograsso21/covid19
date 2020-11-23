@@ -38,4 +38,4 @@ Di seguito sono riportati i grafici a barre che mostrano l'andamento dei dati de
 #### Nuovi dimessi guariti
 ![Nuovi dimessi guariti](</data/imgs/grafici/regioni/friuli venezia giulia/60gg/nuovi_dimessi_guariti.png>)
 
-[Ritorna alla pagina delle regioni](https://github.com/antoniograsso21/covid19/tree/main/markdown/grafici/regioni)
+[Ritorna alla pagina delle regioni](/markdown/grafici/regioni/README.md#friuli-venezia-giulia)
