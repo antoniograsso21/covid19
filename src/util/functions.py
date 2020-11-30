@@ -8,7 +8,8 @@ import plotly.graph_objects as go
 
 class Functions:
 
-    URL_ROOT = 'https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-'
+    URL_ROOT = ('https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/'
+                'dati-')
     FILE_NAME_ROOT = 'dpc-covid19-ita-'
     FILE_EXT = '.csv'
 
@@ -37,14 +38,18 @@ class Functions:
         """
         TODO
         """
-        return Functions.URL_ROOT + level + '/' + Functions.FILE_NAME_ROOT + level
+        return '{url_root}{level}/{file_name_root}{level}'.format(
+            url_root=Functions.URL_ROOT, level=level,
+            file_name_root=Functions.FILE_NAME_ROOT)
 
     @staticmethod
     def get_url_cum(level):
         """
         TODO
         """
-        return Functions.get_url_root(level) + Functions.FILE_EXT
+        return '{url_root}{file_ext}'.format(
+            url_root=Functions.get_url_root(level),
+            file_ext=Functions.FILE_EXT)
 
     @staticmethod
     def get_url_date(level, d):
@@ -58,12 +63,15 @@ class Functions:
         :rtype: `str` url of the csv file
         """
         date_formatted = str(d).replace('-', '')
-        return Functions.get_url_root(level) + '-' + date_formatted + Functions.FILE_EXT
+        return '{url_root}-{date}{file_ext}'.format(
+            url_root=Functions.get_url_root(level), date=date_formatted,
+            file_ext=Functions.FILE_EXT)
 
     @staticmethod
     def replace_bt_with_taa(df):
         """
-        Replace Trento and Bolzano province rows with aggregated Trentino-Alto Adige row
+        Replace Trento and Bolzano province rows with aggregated Trentino-Alto
+        Adige row.
         """
         s_taa_right = df[df['codice_regione'] > 20][df.columns[3:]] \
             .sum().astype(int)
