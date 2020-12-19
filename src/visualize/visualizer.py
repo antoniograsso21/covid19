@@ -47,7 +47,7 @@ class ChoroplethMap:
         """
         :param col: column to visualize on the map
         TODO
-        :param color:
+        :param color: TODO
         :param reversescale:
         :param zmin:
         :param zmid:
