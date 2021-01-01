@@ -15,7 +15,6 @@ I grafici a barre relativi all'andamento **regionale** dei dati sono consultabil
 
 ### Mappe coropletiche
 Per la visualizzazione dei dati regionali e provinciali relativi all'ultima data disponibile sono state generate [mappe coropletiche](https://it.wikipedia.org/wiki/Mappa_coropletica).
-<!-- I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020. -->
 
 #### Andamento Regionale
 Le mappe coropletiche relative all'andamento **regionale** dei dati sono consultabili alla seguente pagina: [mappe regionali](markdown/mappe/regioni/README.md)
