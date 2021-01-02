@@ -6,7 +6,7 @@ Di seguito sono riportate mappe coropletiche che mostrano i dati della pandemia 
 ![Nuovi positivi](/data/imgs/mappe/regioni/nuovi_positivi.png)
 
 #### Rapporto Nuovi positivi / Nuovi tamponi
-I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020.
+<!--I dati relativi alla popolazione regionale fanno riferimento ai [dati ISTAT](http://demo.istat.it/pop2020/index3.html) al 1° Gennaio 2020.-->
 ![Nuovi positivi](/data/imgs/mappe/regioni/nuovi_positivi_su_nuovi_tamponi.png)
 
 #### Totale dei positivi in terapia intensiva
