@@ -69,7 +69,11 @@ I grafici a barre che mostrano l'andamento dei dati della pandemia in Italia son
 ##### Trentino-Alto Adige
 - [ultimi 2 mesi](<trentino-alto adige/60gg/README.md>)
 - [ultimo mese](<trentino-alto adige/30gg/README.md>)
-- [ultima settimana](<trentino-alto adige/07gg/README.md>)    
+- [ultima settimana](<trentino-alto adige/07gg/README.md>)   
+##### Umbria
+- [ultimi 2 mesi](umbria/60gg/README.md)
+- [ultimo mese](umbria/30gg/README.md)
+- [ultima settimana](umbria/07gg/README.md)
 ##### Valle D'Aosta
 - [ultimi 2 mesi](<valle d'aosta/60gg/README.md>)
 - [ultimo mese](<valle d'aosta/30gg/README.md>)
