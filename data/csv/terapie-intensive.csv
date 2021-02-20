@@ -1,21 +1,23 @@
-denominazione_regione,totale_posti_terapia_intensiva
-Piemonte,575
-Valle d'Aosta,20
-Lombardia,1036
-Trentino-Alto Adige,106
-Veneto,1016
-Friuli Venezia Giulia,180
-Liguria,209
-Emilia-Romagna,634
-Toscana,523
-Umbria,117
-Marche,143
-Lazio,847
-Abruzzo,148
-Molise,34
-Campania,505
-Puglia,369
-Basilicata,73
-Calabria,239
-Sicilia,588
-Sardegna,180
+regione,ricoverati_area_non_critica,posti_letto_area_non_critica,ricoverati_terapia_intensiva,posti_letto_terapia_intensiva,posti_letto_terapia_intensiva_attivabili
+Abruzzo,546,1476,73,201,0
+Basilicata,77,416,4,88,13
+Calabria,173,913,15,152,25
+Campania,1313,4132,110,620,36
+Emilia-Romagna,1902,6126,183,757,0
+Friuli Venezia Giulia,349,1277,56,175,0
+Lazio,1925,6421,231,943,193
+Liguria,523,1775,58,216,18
+Lombardia,3733,10290,373,1248,282
+Marche,524,1176,82,233,40
+Molise,80,221,11,39,0
+P.A. Bolzano,254,549,36,100,0
+P.A. Trento,172,584,25,90,15
+Piemonte,1849,5824,130,628,99
+Puglia,1261,3606,163,569,80
+Sardegna,282,1602,27,208,35
+Sicilia,884,3952,150,832,196
+Toscana,723,5033,149,567,16
+Umbria,462,851,83,141,2
+Valle d'Aosta,9,227,2,20,12
+Veneto,790,6000,98,1000,0
+Italia,17831,62451,2059,8827,1062

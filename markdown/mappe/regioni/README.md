@@ -13,7 +13,7 @@ Di seguito sono riportate mappe coropletiche che mostrano i dati della pandemia 
 ![Terapia intensiva](/data/imgs/mappe/regioni/terapia_intensiva.png)
 
 #### Saturazione dei posti in terapia intensiva
-La saturazione tiene conto dei soli posti di terapia intensiva occupati da pazienti positivi al covid. Non sono tenuti in considerazione i pazienti ricoverati con altre patologie. I dati relativi al totale dei letti di terapia intensiva per ogni regione si riferiscono ai dati aggiornati in [questo articolo](https://www.infodata.ilsole24ore.com/2020/10/15/terapie-intensive-scopri-in-tempo-reale-quanti-posti-sono-occupati/) del Sole 24 Ore.
+La saturazione tiene conto dei soli posti di terapia intensiva occupati da pazienti positivi al covid. Non sono tenuti in considerazione i pazienti ricoverati con altre patologie. I dati relativi al totale dei letti di terapia intensiva per ogni regione si riferiscono ai dati aggiornati in [questa pagina](https://www.agenas.gov.it/covid19/web/index.php?r=site%2Ftab2) dell'Agenzia Nazionale per i Servizi Sanitari Regionali.
 
 ![Saturazione terapia intensiva](/data/imgs/mappe/regioni/saturazione_terapia_intensiva.png)
 
