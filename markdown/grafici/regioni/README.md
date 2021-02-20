@@ -47,13 +47,13 @@ I grafici a barre che mostrano l'andamento dei dati della pandemia in Italia son
 - [ultimo mese](molise/30gg/README.md)
 - [ultima settimana](molise/07gg/README.md)
 ##### P.A. Bolzano
-- [ultimi 2 mesi](p.a. bolzano/60gg/README.md)
-- [ultimo mese](p.a. bolzano/30gg/README.md)
-- [ultima settimana](p.a. bolzano/07gg/README.md)
+- [ultimi 2 mesi](<p.a. bolzano/60gg/README.md>)
+- [ultimo mese](<p.a. bolzano/30gg/README.md>)
+- [ultima settimana](<p.a. bolzano/07gg/README.md>)
 ##### P.A. Trento
-- [ultimi 2 mesi](p.a. trento/60gg/README.md)
-- [ultimo mese](p.a. trento/30gg/README.md)
-- [ultima settimana](p.a. trento/07gg/README.md)
+- [ultimi 2 mesi](<p.a. trento/60gg/README.md>)
+- [ultimo mese](<p.a. trento/30gg/README.md>)
+- [ultima settimana](<p.a. trento/07gg/README.md>)
 ##### Piemonte
 - [ultimi 2 mesi](piemonte/60gg/README.md)
 - [ultimo mese](piemonte/30gg/README.md)
