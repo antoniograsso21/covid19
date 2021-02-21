@@ -12,8 +12,7 @@ class Functions:
 
     URL_PC_COVID_ROOT = (
         'https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-')
-    FILE_NAME_ROOT = 'dpc-covid19-ita-'
-    FILE_EXT = '.csv'
+    FILE_NAME_PC_COVID_ROOT = 'dpc-covid19-ita-'
 
     URL_AGENAS_ROOT = 'https://www.agenas.gov.it'
     URL_COVID = 'covid19/web/index.php'
@@ -23,6 +22,12 @@ class Functions:
     URL_ICU_JSON = f'{URL_AGENAS_ROOT}/{URL_COVID}?{URL_ICU_JSON_PARAMS}'
 
     HEADERS_MOZILLA = {"User-Agent": "Mozilla/5.0"}
+
+    URL_VACCINE_ROOT = (
+        'https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/'
+        'master/dati/')
+
+    FILE_EXT = '.csv'
 
     @staticmethod
     def get_prev_days_date(d, days: int):
@@ -39,22 +44,20 @@ class Functions:
         return Functions.get_prev_days_date(d, 1)
 
     @staticmethod
-    def get_URL_PC_COVID_ROOT(level):
+    def get_url_pc_covid(level):
         """
         TODO
         """
-        return '{URL_PC_COVID_ROOT}{level}/{file_name_root}{level}'.format(
-            URL_PC_COVID_ROOT=Functions.URL_PC_COVID_ROOT, level=level,
-            file_name_root=Functions.FILE_NAME_ROOT)
+        return (
+            f'{Functions.URL_PC_COVID_ROOT}{level}/'
+            f'{Functions.FILE_NAME_PC_COVID_ROOT}{level}')
 
     @staticmethod
     def get_url_cum(level):
         """
         TODO
         """
-        return '{URL_PC_COVID_ROOT}{file_ext}'.format(
-            URL_PC_COVID_ROOT=Functions.get_URL_PC_COVID_ROOT(level),
-            file_ext=Functions.FILE_EXT)
+        return f'{Functions.get_url_pc_covid(level)}{Functions.FILE_EXT}'
 
     @staticmethod
     def get_url_date(level, d):
@@ -68,9 +71,9 @@ class Functions:
         :rtype: `str` url of the csv file
         """
         date_formatted = str(d).replace('-', '')
-        return '{URL_PC_COVID_ROOT}-{date}{file_ext}'.format(
-            URL_PC_COVID_ROOT=Functions.get_URL_PC_COVID_ROOT(level), date=date_formatted,
-            file_ext=Functions.FILE_EXT)
+        return (
+            f'{Functions.get_url_pc_covid(level)}-{date_formatted}'
+            f'{Functions.FILE_EXT}')
 
     @staticmethod
     def replace_bt_with_taa(df):
