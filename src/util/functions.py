@@ -25,8 +25,9 @@ class Functions:
 
     URL_VACCINE_ROOT = (
         'https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/'
-        'master/dati/')
+        'master/dati')
 
+    # TODO: maybe remove full stop
     FILE_EXT = '.csv'
 
     @staticmethod
@@ -116,7 +117,7 @@ class Functions:
         res_icu_json = requests.get(
             url=Functions.URL_ICU_JSON, auth=(username, password),
             headers=headers).content.decode('UTF-8')
-        # Mapping attributi json attributi tabella
+        # Mapping json attributes - table attributes
         key_mapping = {
             'dato1': 'ricoverati_area_non_critica',
             'dato2': 'posti_letto_area_non_critica',
@@ -125,5 +126,9 @@ class Functions:
             'dato5': 'posti_letto_terapia_intensiva_attivabili'}
         for k in key_mapping:
             res_icu_json = res_icu_json.replace(k, key_mapping[k])
-        icu_data = {}
-        return json.loads(res_icu_json)
+        icu_data = json.loads(res_icu_json)
+        return icu_data
+
+    @staticmethod
+    def url_vaccine(file_name: str):
+        return f'{Functions.URL_VACCINE_ROOT}/{file_name}{Functions.FILE_EXT}'
