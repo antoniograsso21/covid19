@@ -1,23 +1,23 @@
 regione,ricoverati_area_non_critica,posti_letto_area_non_critica,ricoverati_terapia_intensiva,posti_letto_terapia_intensiva,posti_letto_terapia_intensiva_attivabili
-Abruzzo,226,1324,24,181,14
-Basilicata,71,358,3,79,14
-Calabria,353,1055,29,189,9
-Campania,813,4394,65,688,22
-Emilia-Romagna,1622,9001,141,889,0
-Friuli Venezia Giulia,309,1277,29,175,0
-Lazio,1301,6421,176,943,243
-Liguria,562,1762,45,219,12
-Lombardia,2420,10457,226,1530,0
-Marche,244,1007,52,252,53
-Molise,22,176,2,39,26
+Abruzzo,291,1324,27,181,14
+Basilicata,69,358,2,79,14
+Calabria,378,1056,34,189,9
+Campania,1031,4399,76,702,18
+Emilia-Romagna,1929,9001,147,889,0
+Friuli Venezia Giulia,345,1277,37,175,0
+Lazio,1446,6421,194,943,243
+Liguria,655,1798,46,219,12
+Lombardia,2887,10457,244,1530,0
+Marche,255,1003,54,256,49
+Molise,28,176,2,39,26
 P.A. Bolzano,78,500,18,100,20
-P.A. Trento,98,517,22,90,0
-Piemonte,1460,5824,122,628,99
-Puglia,364,2704,38,493,0
-Sardegna,174,1602,19,204,16
-Sicilia,913,3694,115,851,0
-Toscana,871,5033,90,570,24
-Umbria,185,662,11,86,41
-Valle d'Aosta,45,99,5,33,0
-Veneto,1233,6000,196,1000,0
-Italia,13364,63867,1428,9239,593
+P.A. Trento,104,517,26,90,0
+Piemonte,1724,5824,145,628,99
+Puglia,428,2731,40,493,0
+Sardegna,191,1602,25,204,16
+Sicilia,1123,3794,138,854,0
+Toscana,1036,5033,115,570,14
+Umbria,197,662,13,86,41
+Valle d'Aosta,45,99,6,33,0
+Veneto,1407,6000,206,1000,0
+Italia,15647,64032,1595,9260,575
